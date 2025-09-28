@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Interact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Smart Interact: Learn JavaScript by Doing</h1>
+  </header>
+
+  <section id="basics">
+    <h2>Part 1: JS Basics</h2>
+    <input type="number" id="ageInput" placeholder="Enter your age" />
+    <button onclick="checkAge()">Check Age</button>
+    <p id="ageResult"></p>
+  </section>
+
+  <section id="functions">
+    <h2>Part 2: Functions</h2>
+    <input type="number" id="price" placeholder="Price" />
+    <input type="number" id="quantity" placeholder="Quantity" />
+    <button onclick="showTotal()">Calculate Total</button>
+    <p id="totalResult"></p>
+  </section>
+
+  <section id="loops">
+    <h2>Part 3: Loops</h2>
+    <button onclick="generateList()">Generate Fruit List</button>
+    <ul id="fruitList"></ul>
+  </section>
+
+  <section id="dom">
+    <h2>Part 4: DOM Interactions</h2>
+    <button id="toggleBtn">Toggle Message</button>
+    <p id="toggleMessage" class="hidden">You toggled me!</p>
+    <button onclick="addNewElement()">Add New Element</button>
+    <div id="newElements"></div>
+  </section>
+
+  <footer>
+    <p>Built by Lonily Damisoni — JavaScript Fundamentals</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
